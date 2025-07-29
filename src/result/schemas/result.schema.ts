@@ -8,8 +8,8 @@ export class Result {
   @Prop({ required: true })
   name: string;
 
-  @Prop({ required: true, enum: [0, 1, 2] })
-  type: number; // 0: accuracy abacus, 1: accuracy mentally, 2: speed
+  @Prop({ required: true })
+  type: string; // 0: accuracy abacus, 1: accuracy mentally, 2: speed
 
   @Prop({ required: true })
   correct: number;

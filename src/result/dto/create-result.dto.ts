@@ -8,10 +8,8 @@ export class CreateResultDto {
   name: string;
 
   @ApiProperty({ enum: [0, 1, 2], description: '0 = abacus, 1 = mentally, 2 = speed' })
-  @IsNumber()
-  @Min(0)
-  @Max(2)
-  type: number;
+  @IsString()
+  type: string;
 
   @ApiProperty()
   @IsNumber()
