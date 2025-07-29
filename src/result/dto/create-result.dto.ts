@@ -18,8 +18,4 @@ export class CreateResultDto {
   @ApiProperty()
   @IsNumber()
   wrong: number;
-
-  @ApiProperty()
-  @IsNumber()
-  left: number;
 }

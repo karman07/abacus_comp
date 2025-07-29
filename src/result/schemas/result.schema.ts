@@ -16,9 +16,6 @@ export class Result {
 
   @Prop({ required: true })
   wrong: number;
-
-  @Prop({ required: true })
-  left: number;
 }
 
 export const ResultSchema = SchemaFactory.createForClass(Result);
